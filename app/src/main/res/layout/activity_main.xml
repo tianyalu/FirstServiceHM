@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:orientation="vertical"
+    tools:context="com.sty.first.service.MainActivity">
+
+    <Button
+        android:id="@+id/btn_start_service"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="开启服务"
+        android:textAllCaps="false" />
+
+    <Button
+        android:id="@+id/btn_stop_service"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="停止服务"
+        android:layout_marginTop="16dp"
+        android:textAllCaps="false" />
+
+    <Button
+        android:id="@+id/btn_bind_service"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="绑定服务"
+        android:layout_marginTop="16dp"
+        android:textAllCaps="false" />
+
+    <Button
+        android:id="@+id/btn_unbind_service"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="解绑服务"
+        android:layout_marginTop="16dp"
+        android:textAllCaps="false" />
+
+    <Button
+        android:id="@+id/btn_call_method_in_service"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="通过bindService/接口调用服务里面的方法"
+        android:layout_marginTop="25dp"
+        android:textAllCaps="false" />
+
+</LinearLayout>
